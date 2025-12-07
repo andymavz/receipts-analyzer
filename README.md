@@ -62,7 +62,7 @@ The project requires the following main dependencies:
 1. Visit https://cloud.mongodb.com and create a free account
 2. Create a new cluster (select the free tier)
 3. Click "Connect" and select "Connect your application"
-4. Copy the connection string (format: `mongodb+srv://username:password@cluster.mongodb.net/`)
+4. Copy the connection string (format: `mongodb+srv://username:)
 
 ### Step 4: Set Up Azure Document Intelligence
 
@@ -235,3 +235,4 @@ To reference images in HTML or CSS:
 ```
 
 If you add new images or modify existing ones, ensure all references in the HTML and CSS files are updated accordingly.
+
