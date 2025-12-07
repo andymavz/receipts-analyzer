@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+azure-ai-documentintelligence
+azure-core
+motor
+
+# Data validation and serialization
+pydantic
+
+# Optional: PostgreSQL support (uncomment if using PostgreSQL)
+psycopg2-binary
+
+# Development dependencies (optional)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# httpx==0.25.2 

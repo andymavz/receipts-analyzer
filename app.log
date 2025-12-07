@@ -1,0 +1,2486 @@
+2025-07-11 22:49:37,511 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'd99205e6-5eca-11f0-a61e-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-11 22:49:38,351 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:49:38 GMT'
+2025-07-11 22:49:38,353 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/7609b466-1141-458d-8566-dd414ec50c12?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd99205e6-5eca-11f0-a61e-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 22:49:38,442 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:49:38 GMT'
+2025-07-11 22:49:39,445 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/7609b466-1141-458d-8566-dd414ec50c12?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd99205e6-5eca-11f0-a61e-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 22:49:39,528 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:49:39 GMT'
+2025-07-11 22:49:40,533 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/7609b466-1141-458d-8566-dd414ec50c12?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd99205e6-5eca-11f0-a61e-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 22:49:40,648 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '14604'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:49:40 GMT'
+2025-07-11 22:49:41,063 - __main__ - INFO - Cleaned up temporary file: uploads/2dd87643-f52b-4ce3-9ace-a80cfc9933be.jpeg
+2025-07-11 22:59:52,144 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '47eb72b0-5ecc-11f0-aea1-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-11 22:59:52,682 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:59:51 GMT'
+2025-07-11 22:59:52,683 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f9552313-336f-448e-a7f4-6c9d22f819ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '47eb72b0-5ecc-11f0-aea1-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 22:59:52,786 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:59:52 GMT'
+2025-07-11 22:59:53,792 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f9552313-336f-448e-a7f4-6c9d22f819ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '47eb72b0-5ecc-11f0-aea1-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 22:59:53,876 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:59:53 GMT'
+2025-07-11 22:59:54,877 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f9552313-336f-448e-a7f4-6c9d22f819ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '47eb72b0-5ecc-11f0-aea1-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 22:59:54,967 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:59:54 GMT'
+2025-07-11 22:59:55,971 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f9552313-336f-448e-a7f4-6c9d22f819ba?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '47eb72b0-5ecc-11f0-aea1-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 22:59:56,159 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '71189'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 02:59:55 GMT'
+2025-07-11 22:59:56,688 - __main__ - INFO - Cleaned up temporary file: uploads/b988d503-cdbb-4924-8682-14189f526092.jpeg
+2025-07-11 23:05:58,322 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '222de73c-5ecd-11f0-b5d7-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-11 23:05:58,749 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:05:58 GMT'
+2025-07-11 23:05:58,751 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3f240488-7540-4353-8593-4465040d42e6?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '222de73c-5ecd-11f0-b5d7-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:05:58,853 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:05:58 GMT'
+2025-07-11 23:05:59,860 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3f240488-7540-4353-8593-4465040d42e6?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '222de73c-5ecd-11f0-b5d7-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:05:59,939 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:05:59 GMT'
+2025-07-11 23:06:00,945 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3f240488-7540-4353-8593-4465040d42e6?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '222de73c-5ecd-11f0-b5d7-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:06:01,041 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '410'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:06:00 GMT'
+2025-07-11 23:06:01,044 - __main__ - INFO - Cleaned up temporary file: uploads/1bd65bd9-a626-4234-bb8c-61173c665546.jpg
+2025-07-11 23:06:24,955 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '320db9de-5ecd-11f0-b5d7-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-11 23:06:25,107 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:06:24 GMT'
+2025-07-11 23:06:25,108 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/29e848ff-314c-49c3-8ec7-666309da21e0?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '320db9de-5ecd-11f0-b5d7-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:06:25,205 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:06:24 GMT'
+2025-07-11 23:06:26,210 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/29e848ff-314c-49c3-8ec7-666309da21e0?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '320db9de-5ecd-11f0-b5d7-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:06:26,376 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '32420'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:06:26 GMT'
+2025-07-11 23:06:26,401 - __main__ - ERROR - Receipt analysis error: 'NoneType' object has no attribute 'amount'
+2025-07-11 23:08:57,223 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '8ccff47c-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-11 23:08:57,654 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:08:57 GMT'
+2025-07-11 23:08:57,655 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3e5da82f-0236-42e1-a842-22fcc7508a50?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '8ccff47c-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:08:57,744 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:08:57 GMT'
+2025-07-11 23:08:58,751 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3e5da82f-0236-42e1-a842-22fcc7508a50?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '8ccff47c-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:08:58,840 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:08:58 GMT'
+2025-07-11 23:08:59,845 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3e5da82f-0236-42e1-a842-22fcc7508a50?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '8ccff47c-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:08:59,970 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '32059'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:08:59 GMT'
+2025-07-11 23:09:00,391 - __main__ - INFO - Cleaned up temporary file: uploads/a1bef078-28ce-4a47-88c6-f5b19833d795.jpg
+2025-07-11 23:09:44,873 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'a936d0ae-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-11 23:09:45,232 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:09:44 GMT'
+2025-07-11 23:09:45,233 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c12f26af-a078-4254-a55c-922b230082b6?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a936d0ae-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:09:45,326 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:09:44 GMT'
+2025-07-11 23:09:46,331 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c12f26af-a078-4254-a55c-922b230082b6?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a936d0ae-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:09:46,420 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:09:45 GMT'
+2025-07-11 23:09:47,425 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c12f26af-a078-4254-a55c-922b230082b6?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a936d0ae-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:09:47,504 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:09:46 GMT'
+2025-07-11 23:09:48,509 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c12f26af-a078-4254-a55c-922b230082b6?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'a936d0ae-5ecd-11f0-98c9-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-11 23:09:48,615 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '28773'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Sat, 12 Jul 2025 03:09:48 GMT'
+2025-07-11 23:09:48,989 - __main__ - INFO - Cleaned up temporary file: uploads/b6488d8a-ad3b-4298-921e-0911e797b590.jpeg
+2025-07-13 22:37:02,806 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '6c8e9e72-605b-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 22:37:03,584 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:37:03 GMT'
+2025-07-13 22:37:03,585 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/dd54eef9-f22c-4975-8c9f-40374182879f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6c8e9e72-605b-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:37:03,672 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:37:03 GMT'
+2025-07-13 22:37:04,679 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/dd54eef9-f22c-4975-8c9f-40374182879f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6c8e9e72-605b-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:37:04,758 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:37:04 GMT'
+2025-07-13 22:37:05,763 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/dd54eef9-f22c-4975-8c9f-40374182879f?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6c8e9e72-605b-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:37:05,896 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '28773'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:37:05 GMT'
+2025-07-13 22:37:06,407 - __main__ - INFO - Cleaned up temporary file: uploads/b7373133-1284-4480-8d73-48be08b5bb86.jpeg
+2025-07-13 22:54:12,952 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'd2925ffe-605d-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 22:54:13,704 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:54:13 GMT'
+2025-07-13 22:54:13,705 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/2e8667ea-3fa4-4358-bc5c-efc8b2403143?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd2925ffe-605d-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:54:13,791 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:54:13 GMT'
+2025-07-13 22:54:14,796 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/2e8667ea-3fa4-4358-bc5c-efc8b2403143?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd2925ffe-605d-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:54:14,871 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:54:14 GMT'
+2025-07-13 22:54:15,876 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/2e8667ea-3fa4-4358-bc5c-efc8b2403143?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd2925ffe-605d-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:54:15,965 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:54:15 GMT'
+2025-07-13 22:54:16,970 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/2e8667ea-3fa4-4358-bc5c-efc8b2403143?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'd2925ffe-605d-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:54:17,105 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '28773'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:54:16 GMT'
+2025-07-13 22:54:17,520 - __main__ - INFO - Cleaned up temporary file: uploads/1142dd9c-3a39-40a3-8b74-99a6b6950b3a.jpeg
+2025-07-13 22:55:30,978 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '01142f74-605e-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 22:55:31,606 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:55:30 GMT'
+2025-07-13 22:55:31,607 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/40195bc1-469c-428e-b992-2da4bcfb8813?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '01142f74-605e-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:55:31,706 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:55:30 GMT'
+2025-07-13 22:55:32,709 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/40195bc1-469c-428e-b992-2da4bcfb8813?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '01142f74-605e-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:55:32,794 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:55:31 GMT'
+2025-07-13 22:55:33,796 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/40195bc1-469c-428e-b992-2da4bcfb8813?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '01142f74-605e-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:55:33,879 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:55:33 GMT'
+2025-07-13 22:55:34,884 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/40195bc1-469c-428e-b992-2da4bcfb8813?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '01142f74-605e-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:55:34,966 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:55:34 GMT'
+2025-07-13 22:55:35,972 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/40195bc1-469c-428e-b992-2da4bcfb8813?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '01142f74-605e-11f0-a75a-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 22:55:36,119 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '100246'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 02:55:35 GMT'
+2025-07-13 22:55:36,751 - __main__ - INFO - Cleaned up temporary file: uploads/f6fca645-84a9-4fbc-8bef-1d32bc6f6abc.jpeg
+2025-07-13 23:12:50,615 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '6cc053ae-6060-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 23:12:51,923 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:12:51 GMT'
+2025-07-13 23:12:51,924 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/9ac8ac60-a540-40bc-8f49-e1a8ed190283?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6cc053ae-6060-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:12:52,020 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:12:51 GMT'
+2025-07-13 23:12:53,027 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/9ac8ac60-a540-40bc-8f49-e1a8ed190283?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6cc053ae-6060-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:12:53,111 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:12:52 GMT'
+2025-07-13 23:12:54,114 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/9ac8ac60-a540-40bc-8f49-e1a8ed190283?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6cc053ae-6060-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:12:54,200 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:12:53 GMT'
+2025-07-13 23:12:55,205 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/9ac8ac60-a540-40bc-8f49-e1a8ed190283?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6cc053ae-6060-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:12:55,286 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:12:54 GMT'
+2025-07-13 23:12:56,290 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/9ac8ac60-a540-40bc-8f49-e1a8ed190283?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '6cc053ae-6060-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:12:56,471 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '100246'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:12:55 GMT'
+2025-07-13 23:12:57,212 - __main__ - INFO - Cleaned up temporary file: uploads/111e944b-443f-4941-ba7c-9c9f5c9ae63d.jpeg
+2025-07-13 23:30:59,602 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'f5d675d6-6062-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 23:31:00,180 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:30:59 GMT'
+2025-07-13 23:31:00,181 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c2f5da2a-5bdc-427a-80d0-eaf70d4cf201?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f5d675d6-6062-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:31:00,270 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:31:00 GMT'
+2025-07-13 23:31:01,274 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c2f5da2a-5bdc-427a-80d0-eaf70d4cf201?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f5d675d6-6062-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:31:01,400 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:31:01 GMT'
+2025-07-13 23:31:02,406 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c2f5da2a-5bdc-427a-80d0-eaf70d4cf201?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f5d675d6-6062-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:31:02,494 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:31:02 GMT'
+2025-07-13 23:31:03,498 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c2f5da2a-5bdc-427a-80d0-eaf70d4cf201?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'f5d675d6-6062-11f0-a13b-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:31:03,666 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '71189'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:31:03 GMT'
+2025-07-13 23:31:04,199 - __main__ - INFO - Cleaned up temporary file: uploads/aaf460da-c3b7-45b5-98f0-f66c431dc210.jpeg
+2025-07-13 23:35:51,063 - __main__ - WARNING - Database migration check failed: Not an executable object: 'PRAGMA table_info(receipts)'
+2025-07-13 23:36:22,239 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'b624f5f6-6063-11f0-8cd0-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 23:36:23,041 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:36:22 GMT'
+2025-07-13 23:36:23,042 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/d1b55cb7-0567-4085-9ab9-6c3b25623f2a?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'b624f5f6-6063-11f0-8cd0-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:36:23,139 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:36:22 GMT'
+2025-07-13 23:36:24,146 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/d1b55cb7-0567-4085-9ab9-6c3b25623f2a?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'b624f5f6-6063-11f0-8cd0-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:36:24,235 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:36:23 GMT'
+2025-07-13 23:36:25,241 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/d1b55cb7-0567-4085-9ab9-6c3b25623f2a?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'b624f5f6-6063-11f0-8cd0-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:36:25,323 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:36:24 GMT'
+2025-07-13 23:36:26,328 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/d1b55cb7-0567-4085-9ab9-6c3b25623f2a?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'b624f5f6-6063-11f0-8cd0-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:36:26,461 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '28773'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:36:25 GMT'
+2025-07-13 23:36:26,606 - __main__ - ERROR - Receipt analysis error: (psycopg2.errors.UndefinedColumn) column "image_path" of relation "receipts" does not exist
+LINE 1: INSERT INTO receipts (id, filename, image_path, merchant_nam...
+                                            ^
+
+[SQL: INSERT INTO receipts (id, filename, image_path, merchant_name, transaction_date, total, confidence_score, raw_data, created_at) VALUES (%(id)s, %(filename)s, %(image_path)s, %(merchant_name)s, %(transaction_date)s, %(total)s, %(confidence_score)s, %(raw_data)s, %(created_at)s)]
+[parameters: {'id': 'd758d13a-3e2b-41a7-b5a1-5e3144f23782', 'filename': 'receipt-3.jpeg', 'image_path': 'receipt_images/d758d13a-3e2b-41a7-b5a1-5e3144f23782.jpeg', 'merchant_name': 'Walmart', 'transaction_date': datetime.date(2021, 8, 12), 'total': 35.36, 'confidence_score': 0.9806666666666667, 'raw_data': "{'_data': {'docType': 'receipt.retailMeal', 'boundingRegions': [{'pageNumber': 1, 'polygon': [0, 0, 1428, 0, 1428, 2548, 0, 2548]}], 'fields': {'Coun ... (8474 characters truncated) ... 51, 2375, 698, 2375]}], 'confidence': 0.987, 'spans': [{'offset': 708, 'length': 8}]}}, 'confidence': 0.97, 'spans': [{'offset': 0, 'length': 734}]}}", 'created_at': datetime.datetime(2025, 7, 14, 3, 36, 26, 499225)}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-13 23:38:44,598 - __main__ - WARNING - Database migration check failed: Not an executable object: "\n                SELECT column_name \n                FROM information_schema.columns \n                WHERE table_name = 'receipts' AND column_name = 'image_path'\n            "
+2025-07-13 23:40:00,595 - __main__ - WARNING - Database migration check failed: Not an executable object: "\n                SELECT column_name \n                FROM information_schema.columns \n                WHERE table_name = 'receipts' AND column_name = 'image_path'\n            "
+2025-07-13 23:41:45,816 - __main__ - INFO - Added image_path column to receipts table
+2025-07-13 23:42:12,411 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '86dcfd60-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 23:42:14,030 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:42:14 GMT'
+2025-07-13 23:42:14,031 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/811d9e6a-2c02-4c96-ab5d-adfa5a18ac4d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86dcfd60-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:42:14,127 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:42:14 GMT'
+2025-07-13 23:42:15,134 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/811d9e6a-2c02-4c96-ab5d-adfa5a18ac4d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86dcfd60-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:42:15,220 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:42:15 GMT'
+2025-07-13 23:42:16,222 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/811d9e6a-2c02-4c96-ab5d-adfa5a18ac4d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86dcfd60-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:42:16,310 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:42:16 GMT'
+2025-07-13 23:42:17,316 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/811d9e6a-2c02-4c96-ab5d-adfa5a18ac4d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86dcfd60-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:42:17,485 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '100246'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:42:17 GMT'
+2025-07-13 23:42:18,109 - __main__ - INFO - Cleaned up temporary file: uploads/59cc9abb-df81-4cc0-9c50-68a4cecc6531.jpeg
+2025-07-13 23:43:38,928 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'ba6e7a3c-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-13 23:43:39,141 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:43:38 GMT'
+2025-07-13 23:43:39,142 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/5818f573-9adb-41ef-8277-bd3831313e24?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ba6e7a3c-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:43:39,236 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:43:38 GMT'
+2025-07-13 23:43:40,240 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/5818f573-9adb-41ef-8277-bd3831313e24?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ba6e7a3c-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:43:40,328 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:43:40 GMT'
+2025-07-13 23:43:41,332 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/5818f573-9adb-41ef-8277-bd3831313e24?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ba6e7a3c-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:43:41,424 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:43:41 GMT'
+2025-07-13 23:43:42,429 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/5818f573-9adb-41ef-8277-bd3831313e24?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ba6e7a3c-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:43:42,516 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:43:42 GMT'
+2025-07-13 23:43:43,518 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/5818f573-9adb-41ef-8277-bd3831313e24?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ba6e7a3c-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:43:43,607 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:43:43 GMT'
+2025-07-13 23:43:44,612 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/5818f573-9adb-41ef-8277-bd3831313e24?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'ba6e7a3c-6064-11f0-a83d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-13 23:43:44,721 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '22902'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 03:43:44 GMT'
+2025-07-13 23:43:45,098 - __main__ - INFO - Cleaned up temporary file: uploads/280825da-ad9e-4649-a9f1-0ea71aabc3f3.jpg
+2025-07-13 23:56:18,551 - __main__ - INFO - image_path column already exists
+2025-07-14 00:00:55,871 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '247f684e-6067-11f0-baaf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-14 00:00:56,674 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 04:00:56 GMT'
+2025-07-14 00:00:56,675 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/75d1e967-aebf-4a6d-a1bd-85c3143a1f6c?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '247f684e-6067-11f0-baaf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-14 00:00:56,774 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 04:00:56 GMT'
+2025-07-14 00:00:57,781 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/75d1e967-aebf-4a6d-a1bd-85c3143a1f6c?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '247f684e-6067-11f0-baaf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-14 00:00:57,866 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 04:00:57 GMT'
+2025-07-14 00:00:58,870 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/75d1e967-aebf-4a6d-a1bd-85c3143a1f6c?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '247f684e-6067-11f0-baaf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-14 00:00:58,949 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 04:00:58 GMT'
+2025-07-14 00:00:59,955 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/75d1e967-aebf-4a6d-a1bd-85c3143a1f6c?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '247f684e-6067-11f0-baaf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-14 00:01:00,051 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '14604'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 14 Jul 2025 04:00:59 GMT'
+2025-07-14 00:01:00,576 - __main__ - INFO - Cleaned up temporary file: uploads/3eb46e85-eb5a-4497-b63e-353003be56b0.jpeg
+2025-07-20 22:51:20,358 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-20 22:52:02,633 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-20 22:52:03,501 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-20 22:52:33,790 - __main__ - ERROR - Failed to connect to MongoDB: fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com:10260: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 687dab52f7b7e4092fe52f28, topology_type: Unknown, servers: [<ServerDescription ('fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com', 10260) server_type: Unknown, rtt: None, error=NetworkTimeout('fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com:10260: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-20 22:53:18,423 - __main__ - ERROR - Dashboard generation error: fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com:10260: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 687dab52f7b7e4092fe52f28, topology_type: Unknown, servers: [<ServerDescription ('fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com', 10260) server_type: Unknown, rtt: None, error=NetworkTimeout('fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com:10260: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-07-20 22:53:40,199 - __main__ - ERROR - Dashboard generation error: list indices must be integers or slices, not NoneType
+2025-07-20 22:59:28,901 - __main__ - INFO - MongoDB connection closed
+2025-07-20 22:59:35,830 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-20 22:59:36,363 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-20 22:59:38,802 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-20 23:02:22,552 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '1f49bd66-65df-11f0-91bf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-20 23:02:23,976 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 21 Jul 2025 03:02:23 GMT'
+2025-07-20 23:02:23,977 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f5a62596-062a-4803-b373-d2dfae0fd746?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1f49bd66-65df-11f0-91bf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-20 23:02:24,069 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 21 Jul 2025 03:02:23 GMT'
+2025-07-20 23:02:25,077 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f5a62596-062a-4803-b373-d2dfae0fd746?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1f49bd66-65df-11f0-91bf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-20 23:02:25,163 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 21 Jul 2025 03:02:24 GMT'
+2025-07-20 23:02:26,165 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f5a62596-062a-4803-b373-d2dfae0fd746?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1f49bd66-65df-11f0-91bf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-20 23:02:26,245 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 21 Jul 2025 03:02:25 GMT'
+2025-07-20 23:02:27,248 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f5a62596-062a-4803-b373-d2dfae0fd746?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '1f49bd66-65df-11f0-91bf-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-20 23:02:27,415 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '100246'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Mon, 21 Jul 2025 03:02:26 GMT'
+2025-07-21 13:39:16,353 - __main__ - INFO - MongoDB connection closed
+2025-07-21 21:52:35,281 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 21:52:35,971 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 21:52:38,181 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 21:52:50,031 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '92af508a-669e-11f0-9510-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 21:52:51,035 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 01:52:50 GMT'
+2025-07-21 21:52:51,037 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/86c12c3b-0164-49a0-8886-e3f9320521ad?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '92af508a-669e-11f0-9510-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 21:52:51,134 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 01:52:50 GMT'
+2025-07-21 21:52:52,141 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/86c12c3b-0164-49a0-8886-e3f9320521ad?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '92af508a-669e-11f0-9510-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 21:52:52,221 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 01:52:51 GMT'
+2025-07-21 21:52:53,225 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/86c12c3b-0164-49a0-8886-e3f9320521ad?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '92af508a-669e-11f0-9510-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 21:52:53,307 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 01:52:53 GMT'
+2025-07-21 21:52:54,312 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/86c12c3b-0164-49a0-8886-e3f9320521ad?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '92af508a-669e-11f0-9510-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 21:52:54,402 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 01:52:54 GMT'
+2025-07-21 21:52:55,408 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/86c12c3b-0164-49a0-8886-e3f9320521ad?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '92af508a-669e-11f0-9510-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 21:52:55,592 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '100246'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 01:52:55 GMT'
+2025-07-21 22:00:15,403 - __main__ - INFO - MongoDB connection closed
+2025-07-21 22:00:19,574 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:00:20,002 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:00:22,244 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 22:00:48,714 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'b0004454-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:00:49,469 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:00:49 GMT'
+2025-07-21 22:00:49,470 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f3cea0a0-42e8-42b4-8293-221cbd6c8cbf?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'b0004454-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:00:49,554 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:00:49 GMT'
+2025-07-21 22:00:50,561 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f3cea0a0-42e8-42b4-8293-221cbd6c8cbf?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'b0004454-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:00:50,646 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:00:50 GMT'
+2025-07-21 22:00:51,650 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/f3cea0a0-42e8-42b4-8293-221cbd6c8cbf?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'b0004454-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:00:51,759 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '14604'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:00:51 GMT'
+2025-07-21 22:00:51,772 - __main__ - INFO - Calculated unit price for item: FILET MIGNON - $49.00
+2025-07-21 22:00:51,772 - __main__ - INFO - Set unit price to total price for item: RIB EYE
+2025-07-21 22:00:51,772 - __main__ - INFO - Set unit price to total price for item: CAESAR SALAD
+2025-07-21 22:00:51,772 - __main__ - INFO - Set unit price to total price for item: CREAMED SPINACH
+2025-07-21 22:00:51,772 - __main__ - INFO - Set unit price to total price for item: BAKED POTATO
+2025-07-21 22:01:26,877 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': 'c6bfb3e6-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:01:27,355 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:01:26 GMT'
+2025-07-21 22:01:27,356 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3c84e8c8-0a14-4114-9df6-d055d587b73d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'c6bfb3e6-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:01:27,441 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:01:26 GMT'
+2025-07-21 22:01:28,445 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3c84e8c8-0a14-4114-9df6-d055d587b73d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'c6bfb3e6-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:01:28,528 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:01:28 GMT'
+2025-07-21 22:01:29,531 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3c84e8c8-0a14-4114-9df6-d055d587b73d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'c6bfb3e6-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:01:29,617 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:01:29 GMT'
+2025-07-21 22:01:30,619 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/3c84e8c8-0a14-4114-9df6-d055d587b73d?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': 'c6bfb3e6-669f-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:01:30,806 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '100246'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:01:30 GMT'
+2025-07-21 22:01:30,868 - __main__ - INFO - Set unit price to total price for item: UPUP HOUSEH
+2025-07-21 22:01:30,868 - __main__ - INFO - Set unit price to total price for item: NATVAL ENER
+2025-07-21 22:01:30,868 - __main__ - INFO - Set unit price to total price for item: MOTTS FRTSN
+2025-07-21 22:01:30,869 - __main__ - INFO - Set unit price to total price for item: V8
+2025-07-21 22:01:30,869 - __main__ - INFO - Set unit price to total price for item: OSCAR MAYER
+2025-07-21 22:01:30,869 - __main__ - INFO - Detected discount for item: OSCAR MAYER - $0.55
+2025-07-21 22:01:30,869 - __main__ - INFO - Set unit price to total price for item: NAKED
+2025-07-21 22:01:30,869 - __main__ - INFO - Set unit price to total price for item: TOMATO
+2025-07-21 22:01:30,869 - __main__ - INFO - Set unit price to total price for item: LETTUCE
+2025-07-21 22:01:30,869 - __main__ - INFO - Set unit price to total price for item: KC MASTERPC
+2025-07-21 22:01:30,870 - __main__ - INFO - Set unit price to total price for item: MARKET PANT
+2025-07-21 22:01:30,870 - __main__ - INFO - Detected discount for item: BC SDNLY SL - $0.20
+2025-07-21 22:01:30,870 - __main__ - INFO - Set unit price to total price for item: PEPPERIDGE
+2025-07-21 22:01:30,870 - __main__ - INFO - Set unit price to total price for item: SMUCKERS
+2025-07-21 22:01:30,870 - __main__ - INFO - Set unit price to total price for item: JENNIE-0
+2025-07-21 22:01:30,870 - __main__ - INFO - Detected discount for item: LEAN CUISIN - $0.44
+2025-07-21 22:01:30,870 - __main__ - INFO - Set unit price to total price for item: LEAN CUISIN
+2025-07-21 22:01:30,870 - __main__ - INFO - Set unit price to total price for item: LEAN CUISIN
+2025-07-21 22:01:30,870 - __main__ - INFO - Detected discount for item: LEAN CUISIN - $0.44
+2025-07-21 22:01:30,870 - __main__ - INFO - Detected discount for item: EVOL - $2.40
+2025-07-21 22:01:30,871 - __main__ - INFO - Set unit price to total price for item: BIRD SUBB H
+2025-07-21 22:01:30,871 - __main__ - INFO - Detected discount for item: MP EGGS - $0.10
+2025-07-21 22:01:30,871 - __main__ - INFO - Set unit price to total price for item: REDDI WIP
+2025-07-21 22:01:30,871 - __main__ - INFO - Detected discount for item: MP H AND H - $0.08
+2025-07-21 22:01:30,871 - __main__ - INFO - Set unit price to total price for item: CHOBANI
+2025-07-21 22:01:30,871 - __main__ - INFO - Set unit price to total price for item: CHOBANI
+2025-07-21 22:01:30,871 - __main__ - INFO - Set unit price to total price for item: CHOBANI
+2025-07-21 22:01:30,871 - __main__ - INFO - Detected discount for item: BREYERS - $0.60
+2025-07-21 22:01:30,871 - __main__ - INFO - Detected discount for item: BREYERS - $0.60
+2025-07-21 22:01:30,872 - __main__ - INFO - Set unit price to total price for item: AQUAF 2PK
+2025-07-21 22:01:30,872 - __main__ - INFO - Set unit price to total price for item: SONICARE
+2025-07-21 22:01:30,872 - __main__ - INFO - Detected discount for item: BISSELL - $20.00
+2025-07-21 22:04:54,427 - __main__ - ERROR - Dashboard generation error: list indices must be integers or slices, not NoneType
+2025-07-21 22:05:20,611 - __main__ - ERROR - Dashboard generation error: list indices must be integers or slices, not NoneType
+2025-07-21 22:05:24,349 - __main__ - ERROR - Dashboard generation error: list indices must be integers or slices, not NoneType
+2025-07-21 22:06:47,798 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '86085848-66a0-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:06:48,402 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:06:47 GMT'
+2025-07-21 22:06:48,403 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/910895dc-415c-4b85-a04e-5c0a34637e65?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86085848-66a0-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:06:48,498 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:06:47 GMT'
+2025-07-21 22:06:49,503 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/910895dc-415c-4b85-a04e-5c0a34637e65?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86085848-66a0-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:06:49,594 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:06:48 GMT'
+2025-07-21 22:06:50,599 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/910895dc-415c-4b85-a04e-5c0a34637e65?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86085848-66a0-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:06:50,678 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:06:49 GMT'
+2025-07-21 22:06:51,681 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/910895dc-415c-4b85-a04e-5c0a34637e65?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '86085848-66a0-11f0-b64d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:06:51,774 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '14604'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:06:50 GMT'
+2025-07-21 22:06:51,784 - __main__ - INFO - Calculated unit price for item: FILET MIGNON - $49.00
+2025-07-21 22:06:51,785 - __main__ - INFO - Set unit price to total price for item: RIB EYE
+2025-07-21 22:06:51,785 - __main__ - INFO - Set unit price to total price for item: CAESAR SALAD
+2025-07-21 22:06:51,785 - __main__ - INFO - Set unit price to total price for item: CREAMED SPINACH
+2025-07-21 22:06:51,785 - __main__ - INFO - Set unit price to total price for item: BAKED POTATO
+2025-07-21 22:06:57,099 - __main__ - ERROR - Dashboard generation error: list indices must be integers or slices, not NoneType
+2025-07-21 22:09:27,437 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:09:31,010 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:09:33,609 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 22:09:33,814 - __main__ - INFO - MongoDB connection closed
+2025-07-21 22:09:53,373 - __main__ - INFO - MongoDB connection closed
+2025-07-21 22:09:59,291 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:10:00,435 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:10:02,497 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 22:10:22,863 - __main__ - ERROR - Error in get_monthly_spending: list indices must be integers or slices, not NoneType
+2025-07-21 22:10:41,290 - __main__ - ERROR - Error in get_monthly_spending: list indices must be integers or slices, not NoneType
+2025-07-21 22:11:35,486 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '318220e6-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:11:35,948 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:11:35 GMT'
+2025-07-21 22:11:35,949 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/fe6dde10-ff50-4e94-a6d1-9c20198c5a17?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '318220e6-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:11:36,039 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:11:35 GMT'
+2025-07-21 22:11:37,044 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/fe6dde10-ff50-4e94-a6d1-9c20198c5a17?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '318220e6-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:11:37,129 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:11:36 GMT'
+2025-07-21 22:11:38,135 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/fe6dde10-ff50-4e94-a6d1-9c20198c5a17?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '318220e6-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:11:38,306 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '71189'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:11:37 GMT'
+2025-07-21 22:11:38,356 - __main__ - INFO - Set unit price to total price for item: TATER TOTS
+2025-07-21 22:11:38,356 - __main__ - INFO - Set unit price to total price for item: HARD/PROV/DC
+2025-07-21 22:11:38,356 - __main__ - INFO - Set unit price to total price for item: SNACK BARS
+2025-07-21 22:11:38,356 - __main__ - INFO - Set unit price to total price for item: HRI CL CHS
+2025-07-21 22:11:38,356 - __main__ - INFO - Set unit price to total price for item: HRI CL CHS
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: HRI 12 U SG
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: HRI CL PEP
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: EARBUDS
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: SC BCN CHDDR
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: ABF THINBRST
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: HARD/PROV/DC
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: DV RSE OIL M
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: APPLE 3 BAG
+2025-07-21 22:11:38,357 - __main__ - INFO - Set unit price to total price for item: STOK LT SWT
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: PEANUT BUTTER
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: AVO VERDE
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: ROLLS
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: BTS DRY BLON
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: GALE
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: TR HS FRM 4
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: BAGELS
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: GV SLIDERS
+2025-07-21 22:11:38,358 - __main__ - INFO - Set unit price to total price for item: ACCESSORY
+2025-07-21 22:11:38,359 - __main__ - INFO - Detected discount for item: CHEEZE IT - $0.54
+2025-07-21 22:11:38,359 - __main__ - INFO - Set unit price to total price for item: RITZ
+2025-07-21 22:11:38,359 - __main__ - INFO - Set unit price to total price for item: RUFFLES
+2025-07-21 22:11:38,359 - __main__ - INFO - Set unit price to total price for item: GV HNY GRMS
+2025-07-21 22:12:00,377 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '405837cc-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:12:00,619 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:11:59 GMT'
+2025-07-21 22:12:00,620 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/871244e3-2e60-49e8-93e4-045980983508?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '405837cc-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:12:00,710 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:12:00 GMT'
+2025-07-21 22:12:01,716 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/871244e3-2e60-49e8-93e4-045980983508?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '405837cc-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:12:01,811 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:12:01 GMT'
+2025-07-21 22:12:02,816 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/871244e3-2e60-49e8-93e4-045980983508?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '405837cc-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:12:02,912 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '10131'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:12:02 GMT'
+2025-07-21 22:12:02,919 - __main__ - INFO - Set unit price to total price for item: Grromfy's Tenderest Loin
+2025-07-21 22:12:02,919 - __main__ - INFO - Set unit price to total price for item: Noot's Zuckerburger
+2025-07-21 22:12:02,920 - __main__ - INFO - Set unit price to total price for item: Sev's Drugs
+2025-07-21 22:12:07,116 - __main__ - ERROR - Error in get_monthly_spending: list indices must be integers or slices, not NoneType
+2025-07-21 22:14:01,122 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '885051a4-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:14:01,696 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:14:01 GMT'
+2025-07-21 22:14:01,696 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/addca7a8-bbd2-493e-b155-271612656fe9?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '885051a4-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:14:01,788 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:14:01 GMT'
+2025-07-21 22:14:02,793 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/addca7a8-bbd2-493e-b155-271612656fe9?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '885051a4-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:14:02,877 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:14:02 GMT'
+2025-07-21 22:14:03,881 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/addca7a8-bbd2-493e-b155-271612656fe9?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '885051a4-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:14:03,969 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:14:03 GMT'
+2025-07-21 22:14:04,974 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/addca7a8-bbd2-493e-b155-271612656fe9?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '885051a4-66a1-11f0-864d-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:14:05,106 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '100246'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:14:04 GMT'
+2025-07-21 22:14:05,166 - __main__ - INFO - Set unit price to total price for item: UPUP HOUSEH
+2025-07-21 22:14:05,166 - __main__ - INFO - Set unit price to total price for item: NATVAL ENER
+2025-07-21 22:14:05,166 - __main__ - INFO - Set unit price to total price for item: MOTTS FRTSN
+2025-07-21 22:14:05,166 - __main__ - INFO - Set unit price to total price for item: V8
+2025-07-21 22:14:05,166 - __main__ - INFO - Set unit price to total price for item: OSCAR MAYER
+2025-07-21 22:14:05,167 - __main__ - INFO - Detected discount for item: OSCAR MAYER - $0.55
+2025-07-21 22:14:05,167 - __main__ - INFO - Set unit price to total price for item: NAKED
+2025-07-21 22:14:05,167 - __main__ - INFO - Set unit price to total price for item: TOMATO
+2025-07-21 22:14:05,167 - __main__ - INFO - Set unit price to total price for item: LETTUCE
+2025-07-21 22:14:05,167 - __main__ - INFO - Set unit price to total price for item: KC MASTERPC
+2025-07-21 22:14:05,167 - __main__ - INFO - Set unit price to total price for item: MARKET PANT
+2025-07-21 22:14:05,167 - __main__ - INFO - Detected discount for item: BC SDNLY SL - $0.20
+2025-07-21 22:14:05,167 - __main__ - INFO - Set unit price to total price for item: PEPPERIDGE
+2025-07-21 22:14:05,167 - __main__ - INFO - Set unit price to total price for item: SMUCKERS
+2025-07-21 22:14:05,168 - __main__ - INFO - Set unit price to total price for item: JENNIE-0
+2025-07-21 22:14:05,168 - __main__ - INFO - Detected discount for item: LEAN CUISIN - $0.44
+2025-07-21 22:14:05,168 - __main__ - INFO - Set unit price to total price for item: LEAN CUISIN
+2025-07-21 22:14:05,168 - __main__ - INFO - Set unit price to total price for item: LEAN CUISIN
+2025-07-21 22:14:05,168 - __main__ - INFO - Detected discount for item: LEAN CUISIN - $0.44
+2025-07-21 22:14:05,168 - __main__ - INFO - Detected discount for item: EVOL - $2.40
+2025-07-21 22:14:05,168 - __main__ - INFO - Set unit price to total price for item: BIRD SUBB H
+2025-07-21 22:14:05,168 - __main__ - INFO - Detected discount for item: MP EGGS - $0.10
+2025-07-21 22:14:05,168 - __main__ - INFO - Set unit price to total price for item: REDDI WIP
+2025-07-21 22:14:05,168 - __main__ - INFO - Detected discount for item: MP H AND H - $0.08
+2025-07-21 22:14:05,169 - __main__ - INFO - Set unit price to total price for item: CHOBANI
+2025-07-21 22:14:05,169 - __main__ - INFO - Set unit price to total price for item: CHOBANI
+2025-07-21 22:14:05,169 - __main__ - INFO - Set unit price to total price for item: CHOBANI
+2025-07-21 22:14:05,169 - __main__ - INFO - Detected discount for item: BREYERS - $0.60
+2025-07-21 22:14:05,169 - __main__ - INFO - Detected discount for item: BREYERS - $0.60
+2025-07-21 22:14:05,169 - __main__ - INFO - Set unit price to total price for item: AQUAF 2PK
+2025-07-21 22:14:05,169 - __main__ - INFO - Set unit price to total price for item: SONICARE
+2025-07-21 22:14:05,169 - __main__ - INFO - Detected discount for item: BISSELL - $20.00
+2025-07-21 22:14:14,330 - __main__ - ERROR - Error in get_monthly_spending: list indices must be integers or slices, not NoneType
+2025-07-21 22:15:59,247 - __main__ - ERROR - Error in get_monthly_spending: list indices must be integers or slices, not NoneType
+2025-07-21 22:16:23,669 - __main__ - ERROR - Error in get_monthly_spending: list indices must be integers or slices, not NoneType
+2025-07-21 22:17:57,507 - __main__ - ERROR - Error in get_monthly_spending: list indices must be integers or slices, not NoneType
+2025-07-21 22:18:26,614 - __main__ - INFO - MongoDB connection closed
+2025-07-21 22:18:31,884 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:18:32,913 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:18:35,072 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 22:19:45,653 - __main__ - INFO - Total receipts in database: 4
+2025-07-21 22:19:45,653 - __main__ - INFO - Receipt: transaction_date=None, total=277.02
+2025-07-21 22:19:45,654 - __main__ - INFO - Receipt: transaction_date=2019-04-27 00:00:00, total=144.02
+2025-07-21 22:19:45,655 - __main__ - INFO - Receipt: transaction_date=None, total=1826.0
+2025-07-21 22:19:45,655 - __main__ - INFO - Receipt: transaction_date=2016-03-06 00:00:00, total=251.83
+2025-07-21 22:19:45,850 - __main__ - INFO - Aggregation results: [{'_id': {'year': None, 'month': None}, 'total_spent': 2103.02, 'total_receipts': 2, 'total_tax': 17.02}, {'_id': {'year': 2016, 'month': 3}, 'total_spent': 251.83, 'total_receipts': 1, 'total_tax': 0}, {'_id': {'year': 2019, 'month': 4}, 'total_spent': 144.02, 'total_receipts': 1, 'total_tax': 4.58}]
+2025-07-21 22:19:45,855 - __main__ - ERROR - Error in get_monthly_spending: 1 validation error for MonthlySpending
+year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-07-21 22:20:01,726 - __main__ - INFO - Total receipts in database: 4
+2025-07-21 22:20:01,727 - __main__ - INFO - Receipt: transaction_date=None, total=277.02
+2025-07-21 22:20:01,727 - __main__ - INFO - Receipt: transaction_date=2019-04-27 00:00:00, total=144.02
+2025-07-21 22:20:01,727 - __main__ - INFO - Receipt: transaction_date=None, total=1826.0
+2025-07-21 22:20:01,727 - __main__ - INFO - Receipt: transaction_date=2016-03-06 00:00:00, total=251.83
+2025-07-21 22:20:01,922 - __main__ - INFO - Aggregation results: [{'_id': {'year': None, 'month': None}, 'total_spent': 2103.02, 'total_receipts': 2, 'total_tax': 17.02}, {'_id': {'year': 2016, 'month': 3}, 'total_spent': 251.83, 'total_receipts': 1, 'total_tax': 0}, {'_id': {'year': 2019, 'month': 4}, 'total_spent': 144.02, 'total_receipts': 1, 'total_tax': 4.58}]
+2025-07-21 22:20:01,922 - __main__ - ERROR - Error in get_monthly_spending: 1 validation error for MonthlySpending
+year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-07-21 22:20:20,841 - __main__ - INFO - Total receipts in database: 4
+2025-07-21 22:20:20,841 - __main__ - INFO - Receipt: transaction_date=None, total=277.02
+2025-07-21 22:20:20,841 - __main__ - INFO - Receipt: transaction_date=2019-04-27 00:00:00, total=144.02
+2025-07-21 22:20:20,842 - __main__ - INFO - Receipt: transaction_date=None, total=1826.0
+2025-07-21 22:20:20,842 - __main__ - INFO - Receipt: transaction_date=2016-03-06 00:00:00, total=251.83
+2025-07-21 22:20:21,037 - __main__ - INFO - Aggregation results: [{'_id': {'year': None, 'month': None}, 'total_spent': 2103.02, 'total_receipts': 2, 'total_tax': 17.02}, {'_id': {'year': 2016, 'month': 3}, 'total_spent': 251.83, 'total_receipts': 1, 'total_tax': 0}, {'_id': {'year': 2019, 'month': 4}, 'total_spent': 144.02, 'total_receipts': 1, 'total_tax': 4.58}]
+2025-07-21 22:20:21,037 - __main__ - ERROR - Error in get_monthly_spending: 1 validation error for MonthlySpending
+year
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/int_type
+2025-07-21 22:20:41,000 - __main__ - INFO - MongoDB connection closed
+2025-07-21 22:20:46,941 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:20:47,431 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:20:49,545 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 22:20:55,786 - __main__ - INFO - Found 2 receipts with transaction dates
+2025-07-21 22:20:55,786 - __main__ - ERROR - Error in get_monthly_spending: unsupported operand type(s) for +=: 'int' and 'NoneType'
+2025-07-21 22:21:11,870 - __main__ - INFO - Found 2 receipts with transaction dates
+2025-07-21 22:21:11,871 - __main__ - ERROR - Error in get_monthly_spending: unsupported operand type(s) for +=: 'int' and 'NoneType'
+2025-07-21 22:21:19,935 - __main__ - INFO - MongoDB connection closed
+2025-07-21 22:21:56,033 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:21:56,831 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:21:58,990 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 22:22:05,882 - __main__ - INFO - Starting CosmosDB compatible monthly spending calculation
+2025-07-21 22:22:06,090 - __main__ - INFO - Found 2 receipts with transaction dates
+2025-07-21 22:22:06,091 - __main__ - INFO - Processing receipt: date=2019-04-27 00:00:00, total=144.02
+2025-07-21 22:22:06,091 - __main__ - INFO - Grouping under key: 2019-04
+2025-07-21 22:22:06,091 - __main__ - INFO - Processing receipt: date=2016-03-06 00:00:00, total=251.83
+2025-07-21 22:22:06,091 - __main__ - INFO - Grouping under key: 2016-03
+2025-07-21 22:22:06,091 - __main__ - INFO - Monthly groups: {'2019-04': {'year': 2019, 'month': 4, 'total_spent': 144.02, 'total_receipts': 1, 'total_tax': 4.58}, '2016-03': {'year': 2016, 'month': 3, 'total_spent': 251.83, 'total_receipts': 1, 'total_tax': 0}}
+2025-07-21 22:22:06,092 - __main__ - INFO - Final monthly data: [MonthlySpending(month='March', year=2016, total_spent=251.83, total_receipts=1, total_tax=0.0), MonthlySpending(month='April', year=2019, total_spent=144.02, total_receipts=1, total_tax=4.58)]
+2025-07-21 22:22:12,831 - __main__ - INFO - Starting CosmosDB compatible monthly spending calculation
+2025-07-21 22:22:13,032 - __main__ - INFO - Found 2 receipts with transaction dates
+2025-07-21 22:22:13,032 - __main__ - INFO - Processing receipt: date=2019-04-27 00:00:00, total=144.02
+2025-07-21 22:22:13,032 - __main__ - INFO - Grouping under key: 2019-04
+2025-07-21 22:22:13,032 - __main__ - INFO - Processing receipt: date=2016-03-06 00:00:00, total=251.83
+2025-07-21 22:22:13,032 - __main__ - INFO - Grouping under key: 2016-03
+2025-07-21 22:22:13,032 - __main__ - INFO - Monthly groups: {'2019-04': {'year': 2019, 'month': 4, 'total_spent': 144.02, 'total_receipts': 1, 'total_tax': 4.58}, '2016-03': {'year': 2016, 'month': 3, 'total_spent': 251.83, 'total_receipts': 1, 'total_tax': 0}}
+2025-07-21 22:22:13,033 - __main__ - INFO - Final monthly data: [MonthlySpending(month='March', year=2016, total_spent=251.83, total_receipts=1, total_tax=0.0), MonthlySpending(month='April', year=2019, total_spent=144.02, total_receipts=1, total_tax=4.58)]
+2025-07-21 22:22:21,615 - __main__ - INFO - Starting CosmosDB compatible monthly spending calculation
+2025-07-21 22:22:21,816 - __main__ - INFO - Found 2 receipts with transaction dates
+2025-07-21 22:22:21,816 - __main__ - INFO - Processing receipt: date=2019-04-27 00:00:00, total=144.02
+2025-07-21 22:22:21,816 - __main__ - INFO - Grouping under key: 2019-04
+2025-07-21 22:22:21,816 - __main__ - INFO - Processing receipt: date=2016-03-06 00:00:00, total=251.83
+2025-07-21 22:22:21,816 - __main__ - INFO - Grouping under key: 2016-03
+2025-07-21 22:22:21,816 - __main__ - INFO - Monthly groups: {'2019-04': {'year': 2019, 'month': 4, 'total_spent': 144.02, 'total_receipts': 1, 'total_tax': 4.58}, '2016-03': {'year': 2016, 'month': 3, 'total_spent': 251.83, 'total_receipts': 1, 'total_tax': 0}}
+2025-07-21 22:22:21,817 - __main__ - INFO - Final monthly data: [MonthlySpending(month='March', year=2016, total_spent=251.83, total_receipts=1, total_tax=0.0), MonthlySpending(month='April', year=2019, total_spent=144.02, total_receipts=1, total_tax=4.58)]
+2025-07-21 22:25:11,784 - __main__ - INFO - MongoDB connection closed
+2025-07-21 22:25:17,911 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:25:18,532 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 22:25:20,574 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 22:26:07,729 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '3967d77c-66a3-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:26:08,520 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:26:08 GMT'
+2025-07-21 22:26:08,521 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c05e9b35-6d8d-4a64-9b8f-f9941ce4ac1e?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3967d77c-66a3-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:26:08,617 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:26:08 GMT'
+2025-07-21 22:26:09,625 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c05e9b35-6d8d-4a64-9b8f-f9941ce4ac1e?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3967d77c-66a3-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:26:09,710 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:26:09 GMT'
+2025-07-21 22:26:10,716 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c05e9b35-6d8d-4a64-9b8f-f9941ce4ac1e?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3967d77c-66a3-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:26:10,808 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:26:10 GMT'
+2025-07-21 22:26:11,814 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/c05e9b35-6d8d-4a64-9b8f-f9941ce4ac1e?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '3967d77c-66a3-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:26:11,952 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '28773'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:26:11 GMT'
+2025-07-21 22:32:36,022 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com//documentintelligence/documentModels/prebuilt-receipt:analyze?api-version=REDACTED'
+Request method: 'POST'
+Request headers:
+    'content-type': 'application/octet-stream'
+    'Accept': 'application/json'
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+A body is sent with the request
+2025-07-21 22:32:36,716 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 202
+Response headers:
+    'Content-Length': '0'
+    'Operation-Location': 'REDACTED'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:36 GMT'
+2025-07-21 22:32:36,717 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/10422130-debe-40c8-8c8c-f408d4e77887?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:32:36,812 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:36 GMT'
+2025-07-21 22:32:37,817 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/10422130-debe-40c8-8c8c-f408d4e77887?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:32:37,897 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:38 GMT'
+2025-07-21 22:32:38,899 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/10422130-debe-40c8-8c8c-f408d4e77887?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:32:38,985 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:39 GMT'
+2025-07-21 22:32:39,990 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/10422130-debe-40c8-8c8c-f408d4e77887?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:32:40,068 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:40 GMT'
+2025-07-21 22:32:41,073 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/10422130-debe-40c8-8c8c-f408d4e77887?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:32:41,159 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:41 GMT'
+2025-07-21 22:32:42,162 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/10422130-debe-40c8-8c8c-f408d4e77887?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:32:42,242 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '106'
+    'Content-Type': 'application/json; charset=utf-8'
+    'retry-after': '1'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:42 GMT'
+2025-07-21 22:32:43,247 - azure.core.pipeline.policies.http_logging_policy - INFO - Request URL: 'https://ai-rnkisy01ai8012481047260744.openai.azure.com/documentintelligence/documentModels/prebuilt-receipt/analyzeResults/10422130-debe-40c8-8c8c-f408d4e77887?api-version=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-client-request-id': '20d8aca8-66a4-11f0-b4dd-a20f0140c25a'
+    'User-Agent': 'azsdk-python-ai-documentintelligence/1.0.2 Python/3.11.13 (macOS-10.16-x86_64-i386-64bit)'
+    'Ocp-Apim-Subscription-Key': 'REDACTED'
+No body was attached to the request
+2025-07-21 22:32:43,369 - azure.core.pipeline.policies.http_logging_policy - INFO - Response status: 200
+Response headers:
+    'Content-Length': '28859'
+    'Content-Type': 'application/json; charset=utf-8'
+    'x-envoy-upstream-service-time': 'REDACTED'
+    'apim-request-id': 'REDACTED'
+    'Strict-Transport-Security': 'REDACTED'
+    'x-content-type-options': 'REDACTED'
+    'x-ms-region': 'REDACTED'
+    'Date': 'Tue, 22 Jul 2025 02:32:43 GMT'
+2025-07-21 23:08:46,066 - __main__ - INFO - MongoDB connection closed
+2025-07-21 23:08:51,617 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 23:08:52,641 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 23:08:54,698 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 23:09:29,336 - __main__ - INFO - MongoDB connection closed
+2025-07-21 23:09:33,925 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 23:09:34,717 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-07-21 23:09:36,880 - __main__ - INFO - Successfully connected to MongoDB
+2025-07-21 23:12:11,311 - __main__ - INFO - MongoDB connection closed
+2025-08-29 19:07:19,810 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-08-29 19:07:20,446 - pymongo.client - INFO - You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
+2025-08-29 19:07:50,560 - __main__ - ERROR - Failed to connect to MongoDB: fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com:10260: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 68b232a7e06869e43e6e0ee1, topology_type: Unknown, servers: [<ServerDescription ('fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com', 10260) server_type: Unknown, rtt: None, error=NetworkTimeout('fc-baa6afbf02e0-000.global.mongocluster.cosmos.azure.com:10260: timed out (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-08-29 19:07:50,560 - __main__ - INFO - MongoDB connection closed
